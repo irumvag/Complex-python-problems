@@ -16,5 +16,5 @@ a=[p*((1+r)**k) for k in n]
 print("The original amount invested (i.e., the principal of $1000).")
 k=0
 for i in a:
-    print(f"The 7% investment return after {n[k]} years is the following {i}$.")
+    print(f"The 7% investment return after {n[k]} years is the following {i:.2f}$.")
     k+=1
